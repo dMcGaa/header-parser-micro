@@ -1,5 +1,10 @@
-# Minimum web app using NodeJS, EJS, and Express.
+# Request Header Parser Microservice.
 
-NodeJS
-EJS
-Express
+## User Stories:
+As a user, I can get the IP address, language, and operating system for my browser.
+
+
+## Using:
+* NodeJS
+* EJS
+* Express

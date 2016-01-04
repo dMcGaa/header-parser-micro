@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>NodeJS Simple App</title>
+    <title>Browser Info</title>
 
     <!-- CSS -->
     <!-- load bootstrap and custom stylesheet -->
@@ -14,10 +14,12 @@
 
 <div class="container">
     <div class="jumbotron">
-        <h1>This Is Heroku Minimum!</h1>
-        <h2>Made using NodeJS, Express, EJS</h2>
-        <p>Author <a href="http://dmcgaa.com">dmcgaa.com</a></p>
-        <p></p><i>made 2016-01-02</i></p>
+        <h1>Request Header Parser Microservice</h1>
+        <p>Retrieve browser info: IP Address, Language, Operating System</p>
+        <% var browInfo = {}; browInfo.language = "english"; %>
+        <p style = "color:black; background-color:lightgray; border-radius:5px;">Yours: <%=JSON.stringify(browInfo)%></p>
+        <p><a href="https://github.com/dMcGaa/header-parser-micro">GitHub</a></p>
+        <p style="font-size: 80%;"><i>updated 2016-01-04</i></p>
     </div>
 </div>
     
